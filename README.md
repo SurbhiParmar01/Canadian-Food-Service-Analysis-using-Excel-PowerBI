@@ -204,7 +204,7 @@ Thresholds were set based on the actual data distribution (20%–46%) rather tha
 Three insights that go beyond the numbers:
 
 **1. The recovery story overstates volume recovery**
-The national Recovery Index of 131.7 includes significant menu price inflation (approximately 20-30% between 2019 and 2024). A more complete analysis would deflate these figures against Statistics Canada's CPI for food purchased from restaurants — the real volume recovery is likely more modest than the nominal figure suggests.
+The national Recovery Index of 131.7 includes significant menu price inflation (approximately 20-30% between 2019 and 2024). A more complete analysis would deflate these figures against Statistics Canada's CPI for food purchased from restaurants - the real volume recovery is likely more modest than the nominal figure suggests.
 
 **2. PEI's 145.9 index needs context**
 PEI's exceptional recovery is tourism-driven, not organic local market growth. As international travel normalises post-COVID, this tourism dividend may not be permanent. Operators evaluating PEI for expansion based on this metric alone would be misreading the signal.
@@ -216,7 +216,7 @@ As the only province with negative YoY growth in 2025, Manitoba is a signal for 
 
 ## Dashboard Preview
 
-![Canadian Food Service Industry Dashboard](Dashboard_Preview.png)
+![Canadian Food Service Industry Dashboard](Dashboard_Preview.jpg)
 
 ---
 
