@@ -19,6 +19,12 @@ The goal was to answer four real business questions that a regional restaurant c
 
 ---
 
+## Dashboard Preview
+
+![Canadian Food Service Industry Dashboard](Dashboard_Preview.jpg)
+
+---
+
 ## Tools & Skills Demonstrated
 
 | Category | Skills |
@@ -211,12 +217,6 @@ PEI's exceptional recovery is tourism-driven, not organic local market growth. A
 
 **3. Manitoba's decline is the most actionable finding**
 As the only province with negative YoY growth in 2025, Manitoba is a signal for existing operators to shift from growth to defence - renegotiate leases, tighten cost controls, evaluate underperforming locations before the decline deepens.
-
----
-
-## Dashboard Preview
-
-![Canadian Food Service Industry Dashboard](Dashboard_Preview.jpg)
 
 ---
 
