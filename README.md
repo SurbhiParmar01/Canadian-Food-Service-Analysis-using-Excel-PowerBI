@@ -224,7 +224,7 @@ As the only province with negative YoY growth in 2025, Manitoba is a signal for 
 ---
 
 **Author:** Surbhi Parmar
-**Portfolio:** [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmar.github.io/)
+**Portfolio:** [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmarPortfolio/)
 **LinkedIn:** [linkedin.com/in/surbhiparmar](https://www.linkedin.com/in/surbhiparmar/)
 **GitHub:** [github.com/SurbhiParmar01](https://github.com/SurbhiParmar01)
 
