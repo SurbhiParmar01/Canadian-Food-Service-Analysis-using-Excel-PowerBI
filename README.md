@@ -16,13 +16,13 @@ If a restaurant chain asked me where to open their next location in Canada, I co
 
 | Metric | Value |
 |--------|-------|
-| **National Recovery Index 2025** | 131.7 — industry is 31.7% above pre-COVID levels |
-| **Best large-market opportunity** | BC at +10.76% growth — $1.3B in sales with above-average momentum |
-| **Only declining province** | Manitoba at -2.81% — a defence signal, not an expansion opportunity |
-| **Fastest growing province** | New Brunswick at +13.54% YoY — strongest emerging market |
-| **Market structure post-COVID** | Unchanged — full-service vs limited-service share stable within 2–3% |
+| **National Recovery Index 2025** | 131.7 - industry is 31.7% above pre-COVID levels |
+| **Best large-market opportunity** | BC at +10.76% growth - $1.3B in sales with above-average momentum |
+| **Only declining province** | Manitoba at -2.81% - a defence signal, not an expansion opportunity |
+| **Fastest growing province** | New Brunswick at +13.54% YoY - strongest emerging market |
+| **Market structure post-COVID** | Unchanged - full-service vs limited-service share stable within 2-3% |
 | **COVID lowest point** | National Recovery Index of 72.2 in 2020 |
-| **Strongest recovered province** | PEI at 145.9 — though tourism-driven, not organic growth |
+| **Strongest recovered province** | PEI at 145.9 - though tourism-driven, not organic growth |
 
 ---
 
@@ -226,7 +226,7 @@ As the only province with negative YoY growth in 2025, Manitoba is a signal for 
 **Author:** Surbhi Parmar
 **Portfolio:** [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmar.github.io/)
 **LinkedIn:** [linkedin.com/in/surbhiparmar](https://www.linkedin.com/in/surbhiparmar/)
-**GitHub:** 
+**GitHub:** [github.com/SurbhiParmar01](https://github.com/SurbhiParmar01)
 
 ---
 
