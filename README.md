@@ -6,6 +6,26 @@
 
 ---
 
+## The Bottom Line
+
+If a restaurant chain asked me where to open their next location in Canada, I could answer with data. Using Statistics Canada's monthly food service revenue data (2018–2025), I built a four-part analysis covering COVID recovery by province, seasonal staffing patterns, market structure shifts, and a provincial opportunity matrix that plots every province by market size and growth momentum. The short answer: **expand in BC and Ontario, watch Atlantic Canada, and do not open in Manitoba right now.** Built entirely in Excel using Power Query, Power Pivot, and DAX.
+
+---
+
+## Key Findings at a Glance
+
+| Metric | Value |
+|--------|-------|
+| **National Recovery Index 2025** | 131.7 — industry is 31.7% above pre-COVID levels |
+| **Best large-market opportunity** | BC at +10.76% growth — $1.3B in sales with above-average momentum |
+| **Only declining province** | Manitoba at -2.81% — a defence signal, not an expansion opportunity |
+| **Fastest growing province** | New Brunswick at +13.54% YoY — strongest emerging market |
+| **Market structure post-COVID** | Unchanged — full-service vs limited-service share stable within 2–3% |
+| **COVID lowest point** | National Recovery Index of 72.2 in 2020 |
+| **Strongest recovered province** | PEI at 145.9 — though tourism-driven, not organic growth |
+
+---
+
 ## Project Overview
 
 This project analyzes Canada's food service industry using monthly sales data from Statistics Canada (Table 21-10-0019-01) covering January 2018 to December 2025. The dataset captures seasonally adjusted revenue across all provinces and four service categories - full-service restaurants, limited-service eating places, drinking places, and special food services.
@@ -37,23 +57,6 @@ The goal was to answer four real business questions that a regional restaurant c
 | **Classification** | Nested IF - analyst-defined growth tier thresholds |
 | **Visualisation** | PivotTables from Data Model, Conditional Formatting (color scale + rules), Line Chart, 100% Stacked Bar, Bubble Chart |
 | **Dashboard** | Interactive dashboard with cross-connected Region slicer, KPI cards, linked charts |
-
----
-
-## File Structure
-
-```
-Canada_FoodService_Analysis.xlsx
-│
-├── Raw_Data                  → Original Stats Canada CSV loaded via Power Query (untouched)
-├── Province_Lookup           → Manually built dimension table with Region and Population Group
-├── Province_Summary          → XLOOKUP demo - basic and multi-condition, nested IF, conditional formatting
-├── Analysis_1                → Recovery Index heatmap by province (2018–2025)
-├── Analysis_2                → Seasonal sales patterns by service type (2023)
-├── Analysis_3                → Market share shift —-full-service vs limited-service (2018–2025)
-├── Analysis_4                → Provincial Market Opportunity Matrix - bubble chart
-└── Dashboard                 → Interactive dashboard with KPI cards, 4 charts, Region slicer
-```
 
 ---
 
@@ -223,6 +226,7 @@ As the only province with negative YoY growth in 2025, Manitoba is a signal for 
 **Author:** Surbhi Parmar
 **Portfolio:** [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmar.github.io/)
 **LinkedIn:** [linkedin.com/in/surbhiparmar](https://www.linkedin.com/in/surbhiparmar/)
+**GitHub:** 
 
 ---
 
