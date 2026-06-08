@@ -101,7 +101,7 @@ This enabled the Region slicer on the dashboard and the XLOOKUP demonstrations o
 Two tables connected via `Province_Code` in a many-to-one relationship:
 
 ```
-FoodService_Adjusted (fact table)  →→→  Province_Lookup (dimension table)
+FoodService_Adjusted (fact table)  --  Province_Lookup (dimension table)
      [many rows of sales data]              [11 province records]
            via GEO column                   via Province_Code column
 ```
