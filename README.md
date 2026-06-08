@@ -2,7 +2,7 @@
 
 **COVID Impact | Provincial Recovery | Seasonal Trends | Market Opportunity**
 
-> Built on official Statistics Canada data — not a practice dataset.
+> Built on official Statistics Canada data.
 
 ---
 
