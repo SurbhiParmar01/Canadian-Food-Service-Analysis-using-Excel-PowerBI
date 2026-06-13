@@ -8,9 +8,13 @@ This workbook analyzes Canada's food service industry using official Statistics 
 
 ---
 
+## Dashboard
+
+![Excel Dashboard - Canadian Food Service Analysis](Dashboard_Preview.jpg)
+
 ## Data Source
 
-Statistics Canada, Table 21-10-0019-01 — Monthly Survey of Food Services and Drinking Places. Seasonally adjusted monthly revenue data, freely available as CSV download.
+Statistics Canada, Table 21-10-0019-01 - Monthly Survey of Food Services and Drinking Places. Seasonally adjusted monthly revenue data, freely available as CSV download.
 
 Before importing, the STATUS column was reviewed per Statistics Canada documentation to understand suppression flags. Suppressed values (marked `x` or `F`) were converted to nulls in the VALUE column - removing those rows entirely would have silently distorted provincial totals.
 
@@ -34,7 +38,7 @@ Before importing, the STATUS column was reviewed per Statistics Canada documenta
 
 ## Methodology
 
-### 1. Power Query — Data Cleaning & Transformation
+### 1. Power Query - Data Cleaning & Transformation
 
 11 documented transformation steps, fully visible in the Applied Steps panel for auditability:
 
@@ -46,11 +50,11 @@ Before importing, the STATUS column was reviewed per Statistics Canada documenta
 - Renamed columns to descriptive names: `Sales_Thousands`, `Service_Type`, `Province_Code`
 - Loaded as connection only - added to Data Model
 
-### 2. Province Lookup Table — Data Enrichment
+### 2. Province Lookup Table - Data Enrichment
 
 A manually built `Province_Lookup` table enriches the raw data with **Region** (West, Central, Prairies, Atlantic) and **Population_Group** (Large, Medium, Small) classifications not present in the original dataset. This enables the Region slicer on the dashboard and the XLOOKUP demonstrations.
 
-### 3. Power Pivot Data Model — Star Schema
+### 3. Power Pivot Data Model - Star Schema
 
 `FoodService_Adjusted` (fact table) connects to `Province_Lookup` (dimension table) via `Province_Code` in a many-to-one relationship - the standard star schema structure used in professional BI tools, including Power BI.
 
@@ -114,3 +118,16 @@ Power Query (multi-step transformation pipeline), Power Pivot (star schema data 
 ## Related
 
 This analysis is also rebuilt in Power BI with an interactive choropleth map, cross-filtering slicers, and drill-through province detail pages - see the `/PowerBI` folder in this repository.
+
+---
+
+## Author
+
+**Surbhi Parmar**
+Portfolio: [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmarPortfolio/)
+LinkedIn: [linkedin.com/in/surbhiparmar](https://www.linkedin.com/in/surbhiparmar/)
+GitHub: [github.com/SurbhiParmar01](https://github.com/SurbhiParmar01)
+
+## Data Source
+
+Statistics Canada, Table 21-10-0019-01 - Monthly Survey of Food Services and Drinking Places
