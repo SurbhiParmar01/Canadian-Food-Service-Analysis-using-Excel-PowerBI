@@ -6,7 +6,7 @@ This Power BI report takes the same dataset and methodology as the companion Exc
 
 **Two pages:** a national overview with geographic filtering, and a province-level detail page accessible via drill-through.
 
-📥 **Download the report:** `FoodService_Adjusted.pbix` (see Releases)
+ **[Download the report: (.pbix)] (https://github.com/SurbhiParmar01/Canadian-Food-Service-Analysis/releases/download/v0.1/FoodService_Adjusted.pbix)**
 
 ---
 
