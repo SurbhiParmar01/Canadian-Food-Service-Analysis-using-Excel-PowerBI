@@ -12,11 +12,16 @@ This Power BI report takes the same dataset and methodology as the companion Exc
 
 ## Page 1 - Provincial Opportunity Map
 
+![Power BI Dashboard — Provincial Opportunity Map](PowerBI_Dashboard.jpg)
+
 Three KPI cards across the top show the national Recovery Index, the highest YoY growth province, and the lowest Recovery Index province at a glance.
 
 A **region slicer** (West, Central, Prairies, Atlantic) filters all visuals on the page simultaneously - clicking Atlantic instantly narrows both the map and bar chart to New Brunswick, Nova Scotia, Newfoundland, and PEI only.
 
+
 ### Choropleth Map + Bar Chart - Two Visuals, One Story
+
+![Atlantic filter active](Map_BarChart.jpg)
 
 The map and bar chart answer two different questions simultaneously:
 
@@ -27,9 +32,14 @@ Neither visual tells the complete story alone. The map shows Atlantic provinces 
 
 Clicking any province on the map highlights its bar in the chart, and vice versa - every visual cross-filters every other visual simultaneously.
 
+
+![Atlantic filter active](Atlantic_Filter.jpg)
+
 ---
 
 ## Page 2 — Province Detail (Drill-Through)
+
+![Page2_Ontario_Drillthrough](Ontario_Drillthrough.jpg)
 
 Right-clicking any province on Page 1 and selecting **Drill Through** opens a dedicated detail page filtered to that province, showing:
 
@@ -79,3 +89,16 @@ Built on the same star schema as the Excel workbook - `FoodService_Adjusted` (fa
 ## Related
 
 This report is built on the same Statistics Canada dataset (Table 21-10-0019-01) and methodology as the companion Excel workbook - see the `/Excel` folder for the full data cleaning pipeline (Power Query), data model (Power Pivot), and DAX/XLOOKUP analysis.
+
+---
+
+## Author
+
+**Surbhi Parmar**
+Portfolio: [surbhiparmar01.github.io](https://surbhiparmar01.github.io/SurbhiParmarPortfolio/)
+LinkedIn: [linkedin.com/in/surbhiparmar](https://www.linkedin.com/in/surbhiparmar/)
+GitHub: [github.com/SurbhiParmar01](https://github.com/SurbhiParmar01)
+
+## Data Source
+
+Statistics Canada, Table 21-10-0019-01 — Monthly Survey of Food Services and Drinking Places
