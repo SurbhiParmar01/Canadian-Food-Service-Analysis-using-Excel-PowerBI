@@ -6,6 +6,8 @@ This workbook analyzes Canada's food service industry using official Statistics 
 
 **Key finding:** National Recovery Index is 131.7 in 2025 (31.7% above pre-COVID levels). New Brunswick leads YoY growth at +7.01%, and Atlantic Canada is quietly outgrowing every large market.
 
+[Download Excel File(.xlsx)](https://github.com/SurbhiParmar01/Canadian-Food-Service-Analysis-using-Excel-PowerBI/releases/download/v0.2/Canada_FoodService_Analysis.xlsx)
+
 ---
 
 ## Dashboard
